@@ -1,11 +1,11 @@
-lockfileVersion: '6.0'
+lockfileVersion: "6.0"
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
 devDependencies:
-  '@types/kaluma':
+  "@types/kaluma":
     specifier: ^1.1.0
     version: 1.1.0
   typescript:
@@ -13,13 +13,18 @@ devDependencies:
     version: 5.4.3
 
 packages:
-
   /@types/kaluma@1.1.0:
-    resolution: {integrity: sha512-yHGCFSZmITOIIWn08wtipy2+d6pE5aNCLSrUFoDZ5QEhj9DIQzhyvHDf2I8j3FYT8rT9NCWRh9/I34lpbsYKRA==}
+    resolution:
+      {
+        integrity: sha512-yHGCFSZmITOIIWn08wtipy2+d6pE5aNCLSrUFoDZ5QEhj9DIQzhyvHDf2I8j3FYT8rT9NCWRh9/I34lpbsYKRA==,
+      }
     dev: true
 
   /typescript@5.4.3:
-    resolution: {integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==}
-    engines: {node: '>=14.17'}
+    resolution:
+      {
+        integrity: sha512-KrPd3PKaCLr78MalgiwJnA25Nm8HAmdwN3mYUYZgG/wizIo9EainNVQI9/yDavtVFRN2h3k8uf3GLHuhDMgEHg==,
+      }
+    engines: { node: ">=14.17" }
     hasBin: true
     dev: true
