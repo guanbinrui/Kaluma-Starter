@@ -39,3 +39,5 @@ function main() {
 }
 
 main();
+
+export {};
